@@ -1,7 +1,11 @@
 # FRMCS-RAIL-IQ
 
-[![GitHub](https://img.shields.io/badge/GitHub-RAIL-IQ-black?logo=github)](https://github.com) [![Git](https://img.shields.io/badge/Git-Managed-red?logo=git)](https://git-scm.com)  
-![Git Thumbnail](https://raw.githubusercontent.com/github/explore/main/topics/git/git.png)
+[![GitHub](https://img.shields.io/badge/GitHub-FRMCS--RAIL--IQ-black?logo=github)](https://github.com/shariquetelco/FRMCS-RAIL-IQ)
+[![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)](https://python.org)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.135-009688?logo=fastapi)](https://fastapi.tiangolo.com)
+[![React](https://img.shields.io/badge/React-18-61DAFB?logo=react)](https://react.dev)
+[![FRMCS](https://img.shields.io/badge/FRMCS-5G%20Railway-orange)](https://uic.org)
+[![IEEE](https://img.shields.io/badge/Target-IEEE%20VTC%202026-blue)](https://vtc2026.ieee-vts.org)
 
 **Episode 3 of the FRMCS Pioneer Stack**  
 Network Risk & Response Orchestration — Munich–Augsburg Corridor
