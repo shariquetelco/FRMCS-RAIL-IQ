@@ -1,0 +1,16 @@
+# Python
+backend/venv/
+backend/Rail-IQ/
+backend/__pycache__/
+backend/*.pyc
+*.egg-info/
+
+# React
+dashboard/node_modules/
+dashboard/build/
+
+# System
+.DS_Store
+Thumbs.db
+*.log
+.env

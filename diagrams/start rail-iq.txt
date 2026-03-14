@@ -1,0 +1,40 @@
+------Terminal 1
+
+cd C:\TouchdownOld\FRMCS-RAIL-IQ\backend
+.\Rail-IQ\Scripts\Activate.ps1
+uvicorn main:app --reload --port 8003
+
+------Terminal 2
+
+cd C:\TouchdownOld\FRMCS-RAIL-IQ\dashboard
+.\Rail-IQ\Scripts\Activate.ps1
+npm start
+
+------Terminal 3
+
+cd C:\TouchdownOld\FRMCS-RAIL-IQ\backend
+.\Rail-IQ\Scripts\Activate.ps1
+python corridor.py
+python risk_engine.py
+python event_log.py
+Invoke-RestMethod http://127.0.0.1:8003/health
+
+Invoke-RestMethod http://127.0.0.1:8003/corridor/state
+
+Invoke-RestMethod -Method POST -Uri http://127.0.0.1:8003/corridor/simulate -ContentType "application/json" -Body '{"tower_id": 4, "event_type": "jamming", "confidence": 0.83}'
+
+Invoke-RestMethod http://127.0.0.1:8003/corridor/timeline
+
+Invoke-RestMethod -Method POST -Uri http://127.0.0.1:8003/corridor/reset
+
+------Browser
+
+open in browser
+http://localhost:3000
+Demo sequence in browser:
+
+Click RESET CORRIDOR
+Click AUTO SIM — wait 13 seconds
+Click any RED tower on the map
+Click EXPORT REPORT
+Click RESET CORRIDOR
