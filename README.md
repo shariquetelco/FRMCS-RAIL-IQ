@@ -10,7 +10,7 @@
 **Episode 3 of the FRMCS Pioneer Stack**  
 Network Risk & Response Orchestration — Munich–Augsburg Corridor
 
-**Author:** Ahmad Sharique · ahmad@iabg.de · IABG mbH  
+**Author:** Ahmad Sharique  · IABG mbH  
 **Status:** Active Development  
 **Target:** IEEE VTC 2026
 
@@ -37,8 +37,8 @@ It maintains a real-time risk map across all 10 Munich–Augsburg towers, models
 | Episode | Project | Key Tech | Status |
 |---------|---------|----------|--------|
 | 1 | RailGuard-PKI | ECDSA-P256, ETSI TS 102941, Flask | ✅ Done |
-| 2 | RailThreat-FRMCS-LAB | FastAPI, 11-feature ML classifier, Prometheus | 🔄 Building |
-| 3 | **FRMCS-RAIL-IQ** | FastAPI, Risk Engine, React, Claude Haiku | 🔄 Building |
+| 2 | RailThreat-FRMCS-LAB | FastAPI, 11-feature ML classifier, Prometheus | ✅ Done |
+| 3 | **FRMCS-RAIL-IQ** | FastAPI, Risk Engine, React, Claude Haiku | ✅ Done |
 | 4 | FRMCS-RF-Corridor | OAI, Open5GS, GNU Radio, NVIDIA Sionna | 📋 Planned |
 | 5 | FRMCS-eBPF-Shield | eBPF/XDP, bcc, libbpf | 📋 Planned |
 | 6 | PQC-RailGuard | ML-KEM (Kyber), ML-DSA (Dilithium) | 📋 Planned |
